@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run" >
+  <test name="Simple Test">
+    <classes>
+      <class name="com.testngrunner.TestNgRunner"/>
+     <!--  <class name="com.testngrunner.OrangeHRMLogin"/> -->
+    </classes>
+  </test>
+</suite>
