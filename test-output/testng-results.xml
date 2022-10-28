@@ -2,41 +2,41 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Example test run" duration-ms="20580" started-at="2022-10-18T16:15:03 IST" finished-at="2022-10-18T16:15:24 IST">
+  <suite name="Default suite" duration-ms="33285" started-at="2022-10-21T16:20:54 IST" finished-at="2022-10-21T16:21:28 IST">
     <groups>
     </groups>
-    <test name="Simple Test" duration-ms="20580" started-at="2022-10-18T16:15:03 IST" finished-at="2022-10-18T16:15:24 IST">
+    <test name="Default test" duration-ms="33285" started-at="2022-10-21T16:20:54 IST" finished-at="2022-10-21T16:21:28 IST">
       <class name="com.testngrunner.TestNgRunner">
-        <test-method status="PASS" signature="intiBrowser()[pri:0, instance:com.testngrunner.TestNgRunner@4a87761d]" name="intiBrowser" is-config="true" duration-ms="11362" started-at="2022-10-18T16:15:03 IST" finished-at="2022-10-18T16:15:15 IST">
+        <test-method status="PASS" signature="intiBrowser()[pri:0, instance:com.testngrunner.TestNgRunner@4671e53b]" name="intiBrowser" is-config="true" duration-ms="19844" started-at="2022-10-21T16:20:54 IST" finished-at="2022-10-21T16:21:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intiBrowser -->
-        <test-method status="PASS" signature="getTitle()[pri:0, instance:com.testngrunner.TestNgRunner@4a87761d]" name="getTitle" duration-ms="26" started-at="2022-10-18T16:15:15 IST" finished-at="2022-10-18T16:15:15 IST">
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:com.testngrunner.TestNgRunner@4671e53b]" name="getTitle" duration-ms="24" started-at="2022-10-21T16:21:14 IST" finished-at="2022-10-21T16:21:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngrunner.TestNgRunner@4a87761d]" name="tearDown" is-config="true" duration-ms="178" started-at="2022-10-18T16:15:15 IST" finished-at="2022-10-18T16:15:15 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngrunner.TestNgRunner@4671e53b]" name="tearDown" is-config="true" duration-ms="240" started-at="2022-10-21T16:21:14 IST" finished-at="2022-10-21T16:21:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="intiBrowser()[pri:0, instance:com.testngrunner.TestNgRunner@4a87761d]" name="intiBrowser" is-config="true" duration-ms="8643" started-at="2022-10-18T16:15:15 IST" finished-at="2022-10-18T16:15:23 IST">
+        <test-method status="PASS" signature="intiBrowser()[pri:0, instance:com.testngrunner.TestNgRunner@4671e53b]" name="intiBrowser" is-config="true" duration-ms="12710" started-at="2022-10-21T16:21:15 IST" finished-at="2022-10-21T16:21:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intiBrowser -->
-        <test-method status="FAIL" signature="getTitle2()[pri:0, instance:com.testngrunner.TestNgRunner@4a87761d]" name="getTitle2" duration-ms="14" started-at="2022-10-18T16:15:23 IST" finished-at="2022-10-18T16:15:23 IST">
+        <test-method status="FAIL" signature="getTitle2()[pri:0, instance:com.testngrunner.TestNgRunner@4671e53b]" name="getTitle2" duration-ms="14" started-at="2022-10-21T16:21:27 IST" finished-at="2022-10-21T16:21:27 IST">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [gl] but found [OrangeHRM]]]>
+              <![CDATA[expected [gl] but found [Google]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [gl] but found [OrangeHRM]
+              <![CDATA[java.lang.AssertionError: expected [gl] but found [Google]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at com.testngrunner.TestNgRunner.getTitle2(TestNgRunner.java:35)
+at com.testngrunner.TestNgRunner.getTitle2(TestNgRunner.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -71,11 +71,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngrunner.TestNgRunner@4a87761d]" name="tearDown" is-config="true" duration-ms="148" started-at="2022-10-18T16:15:24 IST" finished-at="2022-10-18T16:15:24 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngrunner.TestNgRunner@4671e53b]" name="tearDown" is-config="true" duration-ms="215" started-at="2022-10-21T16:21:27 IST" finished-at="2022-10-21T16:21:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testngrunner.TestNgRunner -->
-    </test> <!-- Simple Test -->
-  </suite> <!-- Example test run -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

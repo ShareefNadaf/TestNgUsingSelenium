@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -14,19 +15,18 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.UnreachableBrowserException;
 
 import com.utils.ConfigrationReader;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverConfig 
 {
 	 private static WebDriver driver;
 	 private static Properties properties;
-	
    public static WebDriver initBrowser()
    {
 	   properties = ConfigrationReader.initProperties();
 	   String browser=properties.getProperty("browser");
 	   String websiteUrl = properties.getProperty("websiteurl");
-	  
 	   if(browser.equalsIgnoreCase("chrome"))
 	   {
 		   WebDriverManager.chromedriver().setup();

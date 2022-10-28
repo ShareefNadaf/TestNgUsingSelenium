@@ -10,7 +10,8 @@ import org.testng.annotations.Test;
 import com.drivermanager.DriverConfig;
 import com.listners.TestNgListners;
 
-@Listeners(value = TestNgListners.class)
+
+@Listeners(value = TestNgListners.class )
 public class TestNgRunner {
 
 	DriverConfig driverconfig;
@@ -26,7 +27,7 @@ public class TestNgRunner {
 	public void getTitle()
 	{
 		String title = driver.getTitle();
-		Assert.assertEquals(title, "OrangeHRM");
+		Assert.assertEquals(title, "Google");
 	}
 	@Test
 	public void getTitle2()
